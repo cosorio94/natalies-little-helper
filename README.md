@@ -21,12 +21,17 @@ natalies-little-helper/
 Using conda environments 
 
 To create a conda environment from a file:
+
 conda env export > environment.yml
 
 To generate the environment.yml file:
+
 conda env create -f environment.yml
 
 To activate this environment, use
+
     $ conda activate test-nlh
+
 To deactivate an active environment, use
+
     $ conda deactivate

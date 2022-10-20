@@ -30,7 +30,7 @@ To generate the environment.yml file:
 
 To activate this environment, use
 
-    $ conda activate test-nlh
+    $ conda activate nlh
 
 To deactivate an active environment, use
 

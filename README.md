@@ -22,11 +22,11 @@ Using conda environments
 
 To create a conda environment from a file:
 
-conda env export > environment.yml
+    $ conda env export > environment.yml
 
 To generate the environment.yml file:
 
-conda env create -f environment.yml
+    $ conda env create -f environment.yml
 
 To activate this environment, use
 

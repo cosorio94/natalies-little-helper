@@ -1,8 +1,18 @@
 
-# Exclude Datasets
+# Had to exclude the distilbert model because it was too big
+models/tuned_distilbert_sentiment/
+
+# vscode
+.vscode/
+
+# model stuff
+*results/
+
+# virtual environment
+nlh/
+
+# Datasets
 data/
-
-
 
 
 # Byte-compiled / optimized / DLL files

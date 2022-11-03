@@ -46,4 +46,4 @@ dependencies:
   - vs2015_runtime=14.29.30139=h890b9b1_8
   - wheel=0.37.1=pyhd8ed1ab_0
   - xz=5.2.6=h8d14728_0
-prefix: C:\Users\Jonny\anaconda3\envs\nlh
+prefix: $Home\anaconda3\envs\nlh

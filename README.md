@@ -1,6 +1,6 @@
 # natalies-little-helper
 
-11-2-22 Used PyTorch for FNN for sentiment saved one of the models I got with ~78% accuracy, and Hugging Face Transformer models DistilBERT performed the best saved the model in ./models/tuned_distilbert_sentiment, tried some stuff for the negative intent classification but not much luck the simple models have performed the best so far
+11-2-22 Used PyTorch for FNN for sentiment saved one of the models I got with ~78% accuracy, and Hugging Face Transformer models DistilBERT performed the best saved the model in ./models/tuned_distilbert_sentiment had to exclude it before pushing becuase file too large, tried some stuff for the negative intent classification but not much luck the simple models have performed the best so far
 
 ### Data
 

@@ -30,27 +30,34 @@ Using python 3.10.2
 May need to install pytorch separately based on cuda version your system requires
 
 To create a new virtual environment use these commands:
+    
     $ python3 -m venv <name-of-env>
     $ ./<name-of-env>/Scripts/activate
     $ pip install -r requirements.txt
 
 To deactivate use this command:
+    
     $ deactivate
 
 Generated a requirements.txt file using this command:
+    
     $ pip freeze > requirements.txt
 
 (Ended up having a bunch of issues with conda because of huggingface transformers package)
 Using conda environments 
 
 To create a conda environment from a file:
+    
     $ conda env create -f environment.yml
 
 To generate the environment.yml file:
+    
     $ conda env export > environment.yml
 
 To activate this environment, use
+    
     $ conda activate nlh
 
 To deactivate an active environment, use
+    
     $ conda deactivate

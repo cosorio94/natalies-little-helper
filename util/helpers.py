@@ -45,7 +45,7 @@ def evaluate_model(model, X_test, y_test, labels):
     # Plot confustion matrix
     cmp = ConfusionMatrixDisplay(confusion_matrix(
         y_test, y_pred), display_labels=labels)#, display_labels=y_train_df.astype('category').cat.categories)
-    cmp.plot()
+    cmp.plot(xticks_rotation=90)
     plt.show()
 
     return y_pred

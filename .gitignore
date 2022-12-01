@@ -1,6 +1,11 @@
 
+# plots and images
+plots/
+
 # Had to exclude the distilbert model because it was too big
 models/tuned_distilbert_sentiment/
+models/tuned_binary_distilbert
+models/ULMFiT/final/
 
 # vscode
 .vscode/

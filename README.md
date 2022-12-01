@@ -40,11 +40,13 @@ To deactivate use this command:
     $ deactivate
 
 Note for package ray[tune] needed to pip install using this command if using python 3.9 or newer:
+
     $ pip install -U "ray[default] @ LINK_TO_WHEEL.whl"
 
 where LINK_TO_WHEEL.whl is dependent on your python version and Operating System and can be found on <a href="https://docs.ray.io/en/latest/ray-overview/installation.html#daily-releases-nightlies">this</a> site
 
 For example for python3.10 on Windows you would install it like this:
+
     $ pip install -U "ray[default] @ https://s3-us-west-2.amazonaws.com/ray-wheels/latest/ray-3.0.0.dev0-cp310-cp310-win_amd64.whl"
 
 Generated a requirements.txt file using this command:

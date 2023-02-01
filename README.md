@@ -2,6 +2,8 @@
 
 This project is focused on creating an automated comment analysis and response tool for professional social media accounts, with the case study being on Twitter interactions between airlines and their customers. The tool aims to help businesses respond to the massive influx of comments and reviews on social media, especially during peak travel times and severe travel disruptions. By analyzing the sentiment and intent expressed in tweets, the tool hopes to provide relevant and appropriate responses to customer complaints, requests, and dissatisfaction.
 
+Find the project's final report [here](https://github.com/cosorio94/natalies-little-helper/blob/main/Final_Report.pdf) for more details.
+
 ## Method
 
 The method for this project involved the use of the Twitter Airline data set from Kaggle as the corpus for experimentation. The features and labels of interest in the data set included tweets from users directed at an airline, the sentiment of the tweet, the negative reason for a negative sentiment tweet, and the confidence scores for sentiment and negative reason labels. Data cleaning was performed by resolving contractions, normalizing whitespace, lowercasing, and removing URLs, HTML tags, and non-alphabetical characters. Pre-processing was conducted using the NLTK library for stop-word removal and lemmatization. Feature extraction was assisted by TF-IDF vectorization, average word embedding, and attention mask embedding.
